@@ -76,7 +76,7 @@ OUTPUT_DIM = 1
 N_LAYERS = 2
 BIDIRECTIONAL = True
 DROPOUT = 0.5
-N_EPOCHS = 5
+N_EPOCHS = 2
 CLIP = 1
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
